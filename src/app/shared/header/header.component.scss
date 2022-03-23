@@ -1,11 +1,11 @@
 .header__container {
-  background-color: white;
+  background-color: #f4f4f4;
 
 .header {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  padding: 2rem 0;
+  justify-content: space-between;
+  padding: 2rem 15rem;
 
     a {
       text-align: center;

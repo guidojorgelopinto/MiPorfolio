@@ -1,42 +1,53 @@
 .body {
   display: flex;
-
+  background-color:#f4f4f4;
 
   .ppal {
+      float: right;
       margin: auto;
-      margin-top:50px;
-      width: 500px;
-      background-color: rgb(63, 55, 167);
-      padding: 0.5rem;
+      margin-top: 110px;
+      width: 300px;
+      // background-color: rgb(63, 55, 167);
+      padding: 0rem 0rem 0rem 15rem;
       font-size: 20px;
+      text-align: left;
 
       .ppal1{
-        width: 200px;
+        width: 300px;
         height: 30px;
-        //background-color: rgb(228, 13, 13);
-
+        justify-content: right;
       }
 
       .ppal2{
-        width: 200px;
+        width: 300px;
         height: 30px;
-        //background-color: rgb(49, 228, 13);
-
+        justify-content: right;
       }
 
       .ppal3{
-        width: 450px;
-        height: 40px;
-        //background-color: rgb(228, 13, 146);
+        width: 300px;
+        height: 30px;
+        justify-content: right;
+
+      }
+
+      .ppal4{
+        width: 300px;
+        height: 70px;
+        justify-content: right;
+      }
+
+      .ppal5{
+        width: 300px;
+        height: 70px;
+        justify-content: right;
       }
     }
 
-      .ppal4{
-      margin: auto;
+      .ppal6{
         margin-top:50px;
         width: 500px;
-        //background-color: rgb(63, 55, 167);
-        padding: 0.5rem;
+        padding: 0rem 10rem 0rem 0rem;
       }
 
 
