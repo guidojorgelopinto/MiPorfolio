@@ -1,0 +1,43 @@
+.body {
+  display: flex;
+
+
+  .ppal {
+      margin: auto;
+      margin-top:50px;
+      width: 500px;
+      background-color: rgb(63, 55, 167);
+      padding: 0.5rem;
+      font-size: 20px;
+
+      .ppal1{
+        width: 200px;
+        height: 30px;
+        //background-color: rgb(228, 13, 13);
+
+      }
+
+      .ppal2{
+        width: 200px;
+        height: 30px;
+        //background-color: rgb(49, 228, 13);
+
+      }
+
+      .ppal3{
+        width: 450px;
+        height: 40px;
+        //background-color: rgb(228, 13, 146);
+      }
+    }
+
+      .ppal4{
+      margin: auto;
+        margin-top:50px;
+        width: 500px;
+        //background-color: rgb(63, 55, 167);
+        padding: 0.5rem;
+      }
+
+
+}
