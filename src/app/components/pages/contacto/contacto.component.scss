@@ -1,0 +1,70 @@
+
+  .title{
+    background-color:#f4f4f4;
+    margin: 0 auto;
+    padding: 1rem 0rem 1rem 27rem;
+    }
+
+    .body {
+      display: flex;
+      background-color:#f4f4f4;
+
+      .ctc-ppal {
+          float: right;
+          margin: auto;
+          margin-top: 110px;
+          width: 900px;
+          padding: 0rem 0rem 0rem 18rem;
+          font-size: 20px;
+          text-align: left;
+
+          .ctc1{
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+          }
+
+          .ctc2{
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+          }
+
+          .ctc3{
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+
+          }
+
+        }
+
+          .form-reg {
+            height: 100%;
+            padding:  5.5rem 20rem 0rem 0rem;
+            align-items: flex-start;
+            text-align: center;
+
+
+          .reg_prop{
+            width: 15rem;
+          }
+
+
+          .example-form {
+            min-width: 150px;
+            max-width: 500px;
+            width: 100%;
+          }
+
+          .example-full-width {
+            width: 100%;
+          }
+
+          td {
+            padding-right: 8px;
+          }
+    }
+  }
+
+
