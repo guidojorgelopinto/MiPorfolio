@@ -1,132 +1,140 @@
 <app-header></app-header>
-
-<div class="title">
-  <h2>Habilidades</h2>
-</div>
-
 <body class="body">
-  <div class="hab-ppal">
+    <div class="hab-ppal">
+        <div class="hab11">
+            <mat-accordion>
+                <mat-expansion-panel
+                    (opened)="panelOpenState = true"
+                    (closed)="panelOpenState = false"
+                >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon
+                                aria-hidden="false"
+                                aria-label="Example code icon"
+                                >code</mat-icon
+                            >
+                            Developer Frontend
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
 
-    <div class="hab1">
-      <mat-accordion>
-        <mat-expansion-panel
-          (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false">
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <mat-icon aria-hidden="false" aria-label="Example code icon"
-                >code</mat-icon
-              >
-              Developer Frontend
-            </mat-panel-title>
-          </mat-expansion-panel-header>
+                    <div class="tecn-11">
+                        <p>HTML</p>
+                        <p Class="porc-11">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
 
-          <div class="tecn-1">
-            <p>HTML</p>
-            <p Class="porc-1">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                    <br />
 
-          <br />
+                    <div class="tecn-12">
+                        <p>CSS</p>
+                        <p Class="porc-12">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
 
-          <div class="tecn-2">
-            <p>CSS</p>
-            <p Class="porc-2">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
+                    <br />
 
-          <br />
+                    <div class="tecn-13">
+                        <p>ANGULAR</p>
+                        <p Class="porc-13">85%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
 
-          <div class="tecn-3">
-            <p>ANGULAR</p>
-            <p Class="porc-3">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-        </mat-expansion-panel>
-      </mat-accordion>
+        <br />
+
+        <div class="hab21">
+            <mat-accordion>
+                <mat-expansion-panel
+                    (opened)="panelOpenState = true"
+                    (closed)="panelOpenState = false"
+                >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon
+                                aria-hidden="false"
+                                aria-label="Example code icon"
+                                >code</mat-icon
+                            >
+                            Developer Backend
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+
+                    <div class="tecn-21">
+                        <p>NODE JS</p>
+                        <p Class="porc-21">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
+
+                    <br />
+
+                    <div class="tecn-22">
+                        <p>EXPRESS</p>
+                        <p Class="porc-22">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
+
+        <br />
+
+        <div class="hab31">
+            <mat-accordion>
+                <mat-expansion-panel
+                    (opened)="panelOpenState = true"
+                    (closed)="panelOpenState = false"
+                >
+                    <mat-expansion-panel-header>
+                        <mat-panel-title>
+                            <mat-icon
+                                aria-hidden="false"
+                                aria-label="Example code icon"
+                                >code</mat-icon
+                            >
+                            Data Bases
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+
+                    <div class="tecn-31">
+                        <p>MY SQL</p>
+                        <p Class="porc-31">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
+
+                    <br />
+
+                    <div class="tecn-32">
+                        <p>XAMPP</p>
+                        <p Class="porc-32">90%</p>
+                    </div>
+                    <mat-progress-bar
+                        mode="determinate"
+                        value="90"
+                    ></mat-progress-bar>
+                </mat-expansion-panel>
+            </mat-accordion>
+        </div>
     </div>
-  </div>
-
-    <div class="hab12">
-      <mat-accordion>
-        <mat-expansion-panel
-          (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false"
-        >
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <mat-icon aria-hidden="false" aria-label="Example storage icon"
-                >storage</mat-icon
-              >
-              Developer Backend
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-
-          <div class="tecn-12">
-            <p>NODE JS</p>
-            <p Class="porc-12">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-
-          <br />
-
-          <div class="tecn-22">
-            <p>EXPRESS</p>
-            <p Class="porc-22">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-
-          <br />
-
-          <div class="tecn-32">
-            <p>HTML</p>
-            <p Class="porc-32">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-
-    <div class="hab13">
-      <mat-accordion>
-        <mat-expansion-panel
-          (opened)="panelOpenState = true"
-          (closed)="panelOpenState = false"
-        >
-          <mat-expansion-panel-header>
-            <mat-panel-title>
-              <mat-icon aria-hidden="false" aria-label="Example kitchen icon"
-                >kitchen</mat-icon
-              >
-              Developer Databases
-            </mat-panel-title>
-          </mat-expansion-panel-header>
-
-          <div class="tecn-13">
-            <p>MY SQL</p>
-            <p Class="porc-12">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-
-          <br />
-
-          <div class="tecn-23">
-            <p>XAMPP</p>
-            <p Class="porc-22">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-
-          <br />
-
-          <div class="tecn-33">
-            <p>XXXXX</p>
-            <p Class="porc-33">90%</p>
-          </div>
-          <mat-progress-bar mode="determinate" value="90"></mat-progress-bar>
-        </mat-expansion-panel>
-      </mat-accordion>
-    </div>
-
-
 </body>
 <app-footer></app-footer>

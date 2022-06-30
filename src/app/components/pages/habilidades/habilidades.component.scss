@@ -1,139 +1,125 @@
-.title {
-  background-color: #f4f4f4;
-  margin: 0 auto;
-  padding: 1rem 0rem 1rem 27rem;
-}
-
 .body {
-  display: flex;
-  background-color: #f4f4f4;
+    display: flex;
 
-  .hab-ppal {
-    float: right;
-    margin: auto;
-    margin-top: 110px;
-    width: 900px;
-    padding: 0rem 0rem 0rem 8rem;
-    font-size: 20px;
-    text-align: left;
+    .hab-ppal {
+        display: flex;
+        // flex-wrap: wrap;
+        float: right;
+        width: 950px;
+        height: 500px;
+        font-size: 20px;
+        padding: 3rem 10rem 0rem 10rem;
 
-    .mat-form-field + .mat-form-field {
-      margin-left: 8px;
+        .mat-form-field + .mat-form-field {
+            margin-left: 8px;
+        }
+
+        .hab11 {
+            width: 350px;
+            justify-content: right;
+            margin: 10px;
+
+            .tecn-11 {
+                display: flex;
+
+                .porc-11 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12rem;
+                }
+            }
+
+            .tecn-12 {
+                display: flex;
+
+                .porc-12 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12.5rem;
+                }
+            }
+
+            .tecn-13 {
+                display: flex;
+
+                .porc-13 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 10.5rem;
+                }
+            }
+        }
+
+        .hab21 {
+            width: 350px;
+            justify-content: right;
+            margin: 10px;
+
+            .tecn-21 {
+                display: flex;
+
+                .porc-21 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12rem;
+                }
+            }
+
+            .tecn-22 {
+                display: flex;
+
+                .porc-22 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12.5rem;
+                }
+            }
+
+            .tecn-23 {
+                display: flex;
+
+                .porc-23 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 10.5rem;
+                }
+            }
+        }
+
+        .hab31 {
+            width: 350px;
+            justify-content: right;
+            margin: 10px;
+
+            .tecn-31 {
+                display: flex;
+
+                .porc-31 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12rem;
+                }
+            }
+
+            .tecn-32 {
+                display: flex;
+
+                .porc-32 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 12.5rem;
+                }
+            }
+
+            .tecn-33 {
+                display: flex;
+
+                .porc-33 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0rem 0rem 0rem 10.5rem;
+                }
+            }
+        }
     }
-
-    .hab1 {
-      width: 350px;
-      height: 30px;
-      justify-content: right;
-
-      .tecn-1 {
-        display: flex;
-
-        .porc-1 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-2 {
-        display: flex;
-
-        .porc-2 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-3 {
-        display: flex;
-
-        .porc-3 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-    }
-
-  }
-
-    .hab12 {
-      width: 350px;
-      height: 100%;
-      padding:  5.5rem 2rem 0rem 2rem;
-      align-items: flex-start;
-      text-align: center;
-
-      .tecn-12 {
-        display: flex;
-
-        .porc-12 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-22 {
-        display: flex;
-
-        .porc-22 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-32 {
-        display: flex;
-
-        .porc-32 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-    }
-
-    .hab13 {
-      width: 350px;
-      height: 100%;
-      padding:  5.5rem 17rem 0rem 0rem;
-      align-items: flex-start;
-      text-align: center;
-
-      .tecn-13 {
-        display: flex;
-
-        .porc-13 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-23 {
-        display: flex;
-
-        .porc-23 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-
-      .tecn-33 {
-        display: flex;
-
-        .porc-33 {
-          align-items: center;
-          justify-content: space-between;
-          padding: 0rem 0rem 0rem 9.5rem;
-        }
-      }
-    }
-
-
 }

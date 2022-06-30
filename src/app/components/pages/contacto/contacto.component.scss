@@ -1,70 +1,75 @@
+.body {
+    display: flex;
 
-  .title{
-    background-color:#f4f4f4;
-    margin: 0 auto;
-    padding: 1rem 0rem 1rem 27rem;
-    }
+//     .ppal {
+//         float: right;
+//         height: 500px;
+//         width: 300px;
+//         padding: 5rem 0rem 0rem 20rem;
+//         font-size: 20px;
+//         text-align: left;
 
-    .body {
-      display: flex;
-      background-color:#f4f4f4;
+//         .ppal1 {
+//             width: 300px;
+//             height: 30px;
+//             justify-content: right;
+//         }
 
-      .ctc-ppal {
-          float: right;
-          margin: auto;
-          margin-top: 110px;
-          width: 900px;
-          padding: 0rem 0rem 0rem 18rem;
-          font-size: 20px;
-          text-align: left;
+//         .ppal2 {
+//             width: 300px;
+//             height: 30px;
+//             justify-content: right;
+//         }
 
-          .ctc1{
-            width: 300px;
-            height: 30px;
-            justify-content: right;
-          }
+//         .ppal3 {
+//             width: 300px;
+//             height: 30px;
+//             justify-content: right;
+//         }
 
-          .ctc2{
-            width: 300px;
-            height: 30px;
-            justify-content: right;
-          }
+//         .ppal4 {
+//             width: 300px;
+//             height: 70px;
+//             justify-content: right;
+//         }
 
-          .ctc3{
-            width: 300px;
-            height: 30px;
-            justify-content: right;
+//         .ppal5 {
+//             width: 300px;
+//             height: 70px;
+//             justify-content: right;
+//         }
+//     }
 
-          }
+//     .ppal2 {
+//         float: right;
+//         height: 500px;
+//         width: 300px;
+//         padding: 5rem 17.5rem 0rem 5rem;
+//         font-size: 20px;
+//         text-align: left;
 
-        }
+//         .form-reg {
+//             height: 100%;
+//             align-items: flex-start;
+//             text-align: center;
 
-          .form-reg {
-            height: 100%;
-            padding:  5.5rem 20rem 0rem 0rem;
-            align-items: flex-start;
-            text-align: center;
+//             .reg_prop {
+//                 width: 15rem;
+//             }
 
+//             .example-form {
+//                 min-width: 150px;
+//                 max-width: 500px;
+//                 width: 100%;
+//             }
 
-          .reg_prop{
-            width: 15rem;
-          }
+//             .example-full-width {
+//                 width: 100%;
+//             }
 
-
-          .example-form {
-            min-width: 150px;
-            max-width: 500px;
-            width: 100%;
-          }
-
-          .example-full-width {
-            width: 100%;
-          }
-
-          td {
-            padding-right: 8px;
-          }
-    }
-  }
-
-
+//             td {
+//                 padding-right: 8px;
+//             }
+//         }
+//     }
+}
