@@ -1,75 +1,46 @@
 .body {
     display: flex;
 
-//     .ppal {
-//         float: right;
-//         height: 500px;
-//         width: 300px;
-//         padding: 5rem 0rem 0rem 20rem;
-//         font-size: 20px;
-//         text-align: left;
+    .ppal {
+        float: right;
+        height: 300px;
+        padding: 6rem 1rem 10rem 0rem;
+        font-size: 20px;
+        text-align: left;
 
-//         .ppal1 {
-//             width: 300px;
-//             height: 30px;
-//             justify-content: right;
-//         }
+        .ppal1 {
+            padding: 0rem 0rem 0rem 20rem;
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+        }
 
-//         .ppal2 {
-//             width: 300px;
-//             height: 30px;
-//             justify-content: right;
-//         }
+        .ppal2 {
+            padding: 0rem 0rem 0rem 20rem;
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+        }
 
-//         .ppal3 {
-//             width: 300px;
-//             height: 30px;
-//             justify-content: right;
-//         }
+        .ppal3 {
+            padding: 0rem 0rem 0rem 20rem;
+            width: 300px;
+            height: 30px;
+            justify-content: right;
+        }
+    }
 
-//         .ppal4 {
-//             width: 300px;
-//             height: 70px;
-//             justify-content: right;
-//         }
+    .ppal4 {
 
-//         .ppal5 {
-//             width: 300px;
-//             height: 70px;
-//             justify-content: right;
-//         }
-//     }
+        .form-reg {
+            padding: 4rem 0rem 0rem 0rem;
+            width: 710px;
+            height: 500px;
+            justify-content: left;
+        }
 
-//     .ppal2 {
-//         float: right;
-//         height: 500px;
-//         width: 300px;
-//         padding: 5rem 17.5rem 0rem 5rem;
-//         font-size: 20px;
-//         text-align: left;
-
-//         .form-reg {
-//             height: 100%;
-//             align-items: flex-start;
-//             text-align: center;
-
-//             .reg_prop {
-//                 width: 15rem;
-//             }
-
-//             .example-form {
-//                 min-width: 150px;
-//                 max-width: 500px;
-//                 width: 100%;
-//             }
-
-//             .example-full-width {
-//                 width: 100%;
-//             }
-
-//             td {
-//                 padding-right: 8px;
-//             }
-//         }
-//     }
+        .reg_prop {
+            width: 15rem;
+        }
+    }
 }

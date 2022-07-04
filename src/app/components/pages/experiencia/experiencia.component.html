@@ -1,66 +1,38 @@
 <app-header></app-header>
-
 <body class="body">
-    <!-- <div class="example-input-wrapper">
-        <label for="duration">Animation duration:</label>
-        <input
-            id="duration"
-            value="2000"
-            type="number"
-            min="0"
-            step="100"
-            #duration
-        />
-    </div> -->
-
-    <div>
-    <mat-vertical-stepper
-        [linear]="false"
-        #stepper
-    >
-        <mat-step [stepControl]="firstFormGroup">
-            <form [formGroup]="firstFormGroup">
-                <ng-template matStepLabel>Fill out your name</ng-template>
-                <mat-form-field>
-                    <input
-                        matInput
-                        placeholder="Last name, First name"
-                        formControlName="firstCtrl"
-                        required
-                    />
-                </mat-form-field>
-                <div>
-                    <button mat-button matStepperNext>Next</button>
+    <div class="ppal">
+        <div class="timeline">
+            <div class="container left">
+                <div class="content">
+                    <p>Agosto 2021 - Actualidad</p>
+                    <br />
+                    <h1>Full-stack Web Developer Jr</h1>
+                    <br />
+                    <p>Profesional independiente</p>
+                    <p>Barcelona, España</p>
                 </div>
-            </form>
-        </mat-step>
-        <mat-step [stepControl]="secondFormGroup">
-            <form [formGroup]="secondFormGroup">
-                <ng-template matStepLabel>Fill out your address</ng-template>
-                <mat-form-field>
-                    <input
-                        matInput
-                        placeholder="Address"
-                        formControlName="secondCtrl"
-                        required
-                    />
-                </mat-form-field>
-                <div>
-                    <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext>Next</button>
-                </div>
-            </form>
-        </mat-step>
-        <mat-step>
-            <ng-template matStepLabel>Done</ng-template>
-            You are now done.
-            <div>
-                <button mat-button matStepperPrevious>Back</button>
-                <button mat-button (click)="stepper.reset()">Reset</button>
             </div>
-        </mat-step>
-    </mat-vertical-stepper>
-
-</div>
+            <div class="container right">
+                <div class="content">
+                    <p>Abril 2018 - Noviembre 2021 · 3 años 8 meses</p>
+                    <br />
+                    <h1>Analista de Ecommerce</h1>
+                    <br />
+                    <p>Aquachlor S.A.</p>
+                    <p>Capital Federal, Argentina</p>
+                </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                    <p>Febrero 2009 - Abril 2020 · 11 años 3 meses</p>
+                    <br />
+                    <h1>Proyectista Electrico Semi-senior</h1>
+                    <br />
+                    <p>TECMAS S.A.</p>
+                    <p>Buenos Aires, Argentina</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 <app-footer></app-footer>

@@ -1,51 +1,78 @@
-import { Component, OnInit } from "@angular/core";
-import {
-    FormBuilder,
-    FormGroupDirective,
-    FormGroup,
-    NgForm,
-    Validators,
-} from "@angular/forms";
-import { ErrorStateMatcher } from "@angular/material/core";
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, Validators, } from '@angular/forms';
+import { Router } from '@angular/router';
+// import { UsersService } from '../../../service/users.service';
+// import { UserI } from '../../../models/users.interface'
 
 @Component({
-    selector: "app-contacto",
-    templateUrl: "./contacto.component.html",
-    styleUrls: ["./contacto.component.scss"],
+  selector: 'app-contacto',
+  templateUrl: './contacto.component.html',
+  styleUrls: ['./contacto.component.scss']
 })
 export class ContactoComponent implements OnInit {
-    registerForm: FormGroup;
+  registerForm: FormGroup;
+  complete= false;
 
-    constructor(private fb: FormBuilder) {
-        this.registerForm = this.fb.group({
-            lastName: ["", [Validators.required]],
-            name: ["", [Validators.required]],
+  constructor
+  (private fb: FormBuilder,
+//   private usersService: UsersService,
+  private router: Router,
+  )  {
 
-            email: ["", [Validators.required, Validators.email]],
-        });
-    }
+    this.registerForm = this.fb.group ({
+      lastName: ['', [Validators.required]],
+      name: ['', [Validators.required]],
+      userName: ['', [Validators.required]],
+      password: ['', [Validators.required]],
+      password2: ['', [Validators.required]],
+      email: ['',[Validators.required,Validators.email]],
+      city: ['', [Validators.required]],
+      country: ['', [Validators.required]],
+    });
+   }
 
-    // matcher = new MyErrorStateMatcher();
 
-    // emailFormControl = new FormControl("", [
-    //     Validators.required,
-    //     Validators.email,
-    // ]);
+  citys: Array<any> = [
+    {value: 'Ninguno', viewValue: 'Ninguno'},
+    {value: 'Cordoba', viewValue: 'Cordoba'},
+    {value: 'Montevideo', viewValue: 'Montevideo'}
+  ];
 
-    ngOnInit(): void {}
+  countrys: Array<any> = [
+    {value: 'Ninguno', viewValue: 'Ninguno'},
+    {value: 'Argentina', viewValue: 'Argentina'},
+    {value: 'Uruguay', viewValue: 'Uruguay'}
+  ];
+
+  ngOnInit(): void {  }
+
+  signUp() {
+
+    // const registerUser : UserI = {
+    //   lastName: this.registerForm.value.lastName,
+    //   name: this.registerForm.value.name,
+    //   userName: this.registerForm.value.userName,
+    //   password: this.registerForm.value.password,
+    //   password2: this.registerForm.value.password2,
+    //   email: this.registerForm.value.email,
+    //   country: this.registerForm.value.country,
+    //   city: this.registerForm.value.city,
+    //   token: '',
+    //   userId: 0,
+    //   role: 'USER'
+    // }
+    // console.log(registerUser);
+
+    // this.usersService.signUp(registerUser);
+    // this.falselogin();
+
+  }
+
+  falselogin(){
+    this.complete= true;
+    setTimeout(()=>{
+      this.router.navigate(['/login']);
+    },1500
+    );
+  }
 }
-
-// /** Error when invalid control is dirty, touched, or submitted. */
-// export class MyErrorStateMatcher implements ErrorStateMatcher {
-//     isErrorState(
-//         control: FormControl | null,
-//         form: FormGroupDirective | NgForm | null
-//     ): boolean {
-//         const isSubmitted = form && form.submitted;
-//         return !!(
-//             control &&
-//             control.invalid &&
-//             (control.dirty || control.touched || isSubmitted)
-//         );
-//     }
-// }
