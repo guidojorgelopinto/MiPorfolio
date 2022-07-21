@@ -1,0 +1,37 @@
+.body {
+  display: flex;
+}
+.body .ppal {
+  float: right;
+  height: 18.75em;
+  padding: 96px 16px 160px 0px;
+  font-size: 20px;
+  text-align: left;
+}
+.body .ppal .ppal1 {
+  padding: 0px 0px 0px 320px;
+  width: 18.75em;
+  height: 1.875em;
+  justify-content: right;
+}
+.body .ppal .ppal2 {
+  padding: 0px 0px 0px 320px;
+  width: 18.75em;
+  height: 1.875em;
+  justify-content: right;
+}
+.body .ppal .ppal3 {
+  padding: 0px 0px 0px 320px;
+  width: 18.75em;
+  height: 1.875em;
+  justify-content: right;
+}
+.body .ppal4 .form-reg {
+  padding: 64px 0px 0px 0px;
+  width: 650px;
+  height: 500px;
+  justify-content: left;
+}
+.body .ppal4 .reg_prop {
+  width: 15em;
+}/*# sourceMappingURL=contacto.component.css.map */

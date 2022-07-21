@@ -1,14 +1,14 @@
-.body {
+body {
     display: flex;
 
     .card-ppal {
         display: flex;
         flex-wrap: wrap;
         float: right;
-        width: 950px;
-        height: 900px;
+        width: 59.375em;
+        height: 56.25em;
         font-size: 20px;
-        padding: 3rem 10rem 0rem 12rem;
+        padding: 48px 160px 0px 192px;
 
         a {
             text-decoration: none;
@@ -25,8 +25,8 @@
             }
 
             .card-ti {
-                width: 350px;
-                height: 30px;
+                width: 21.875rem;
+                height: 1.875rem;
                 justify-content: right;
             }
         }

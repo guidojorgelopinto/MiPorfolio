@@ -1,0 +1,101 @@
+.body {
+  display: flex;
+}
+.body .hab-ppal {
+  display: flex;
+  float: right;
+  width: 59.375em;
+  height: 31.25em;
+  font-size: 1.25em;
+  padding: 48px 160px 0px 160px;
+}
+.body .hab-ppal .mat-form-field + .mat-form-field {
+  margin-left: 0.5em;
+}
+.body .hab-ppal .hab11 {
+  width: 21.875em;
+  justify-content: right;
+  margin: 0.625em;
+}
+.body .hab-ppal .hab11 .tecn-11 {
+  display: flex;
+}
+.body .hab-ppal .hab11 .tecn-11 .porc-11 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .hab-ppal .hab11 .tecn-12 {
+  display: flex;
+}
+.body .hab-ppal .hab11 .tecn-12 .porc-12 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .hab-ppal .hab11 .tecn-13 {
+  display: flex;
+}
+.body .hab-ppal .hab11 .tecn-13 .porc-13 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}
+.body .hab-ppal .hab21 {
+  width: 21.875em;
+  justify-content: right;
+  margin: 0.625em;
+}
+.body .hab-ppal .hab21 .tecn-21 {
+  display: flex;
+}
+.body .hab-ppal .hab21 .tecn-21 .porc-21 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .hab-ppal .hab21 .tecn-22 {
+  display: flex;
+}
+.body .hab-ppal .hab21 .tecn-22 .porc-22 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .hab-ppal .hab21 .tecn-23 {
+  display: flex;
+}
+.body .hab-ppal .hab21 .tecn-23 .porc-23 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}
+.body .hab-ppal .hab31 {
+  width: 21.875em;
+  justify-content: right;
+  margin: 0.625em;
+}
+.body .hab-ppal .hab31 .tecn-31 {
+  display: flex;
+}
+.body .hab-ppal .hab31 .tecn-31 .porc-31 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .hab-ppal .hab31 .tecn-32 {
+  display: flex;
+}
+.body .hab-ppal .hab31 .tecn-32 .porc-32 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .hab-ppal .hab31 .tecn-33 {
+  display: flex;
+}
+.body .hab-ppal .hab31 .tecn-33 .porc-33 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}/*# sourceMappingURL=habilidades.component.css.map */

@@ -1,46 +1,22 @@
 .body {
     display: flex;
+    // flex-direction: row;
+    height: 420px;
+    // justify-content: content;
 
-    .ppal {
-        float: right;
-        height: 500px;
-        width: 300px;
-        padding: 5rem 0rem 0rem 20rem;
+    .ppal1 {
+        flex-direction: column;
         font-size: 20px;
-        text-align: left;
+        padding: 120px 0px 0px 360px;
+        gap: 100px;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
-        .ppal1 {
-            width: 300px;
-            height: 30px;
-            justify-content: right;
-        }
-
-        .ppal2 {
-            width: 300px;
-            height: 30px;
-            justify-content: right;
-        }
-
-        .ppal3 {
-            width: 300px;
-            height: 30px;
-            justify-content: right;
-        }
-
-        .ppal4 {
-            width: 300px;
-            height: 70px;
-            justify-content: right;
-        }
-
-        .ppal5 {
-            width: 300px;
-            height: 70px;
-            justify-content: right;
+        .ppal1 > div {
+            width: 500px;
         }
     }
 
-    .ppal6 {
-        padding: 5rem 0rem 0rem 5rem;
+    .ppal2 {
+        padding: 120px 0px 0px 50px;
     }
 }
