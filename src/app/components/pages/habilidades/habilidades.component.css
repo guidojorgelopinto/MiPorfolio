@@ -1,0 +1,106 @@
+.body {
+  display: flex;
+}
+.body .habil {
+  display: flex;
+  flex-wrap: wrap;
+  height: 31.25em;
+  justify-content: center;
+  padding: 50px 50px 50px 280px;
+}
+.body .habil .mat-form-field + .mat-form-field {
+  margin-left: 0.5em;
+}
+.body .habil .hab11 {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0px 20px 0px 0px;
+}
+.body .habil .hab11 .tecn-11 {
+  display: flex;
+}
+.body .habil .hab11 .tecn-11 .porc-11 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .habil .hab11 .tecn-12 {
+  display: flex;
+}
+.body .habil .hab11 .tecn-12 .porc-12 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .habil .hab11 .tecn-13 {
+  display: flex;
+}
+.body .habil .hab11 .tecn-13 .porc-13 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}
+.body .habil .hab21 {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0px 20px 0px 0px;
+}
+.body .habil .hab21 .tecn-21 {
+  display: flex;
+}
+.body .habil .hab21 .tecn-21 .porc-21 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .habil .hab21 .tecn-22 {
+  display: flex;
+}
+.body .habil .hab21 .tecn-22 .porc-22 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .habil .hab21 .tecn-23 {
+  display: flex;
+}
+.body .habil .hab21 .tecn-23 .porc-23 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}
+.body .habil .hab31 {
+  display: flex;
+  width: 25%;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0px 20px 0px 0px;
+}
+.body .habil .hab31 .tecn-31 {
+  display: flex;
+}
+.body .habil .hab31 .tecn-31 .porc-31 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 192px;
+}
+.body .habil .hab31 .tecn-32 {
+  display: flex;
+}
+.body .habil .hab31 .tecn-32 .porc-32 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 200px;
+}
+.body .habil .hab31 .tecn-33 {
+  display: flex;
+}
+.body .habil .hab31 .tecn-33 .porc-33 {
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 0px 168px;
+}/*# sourceMappingURL=habilidades.component.css.map */

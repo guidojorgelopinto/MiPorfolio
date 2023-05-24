@@ -1,0 +1,133 @@
+.body {
+    display: flex;
+
+    .habil {
+        display: flex;
+        flex-wrap: wrap;
+        height: 31.25em;
+        justify-content: center;
+        padding: 50px 50px 50px 280px;
+
+        .mat-form-field + .mat-form-field {
+            margin-left: 0.5em;
+        }
+
+        .hab11 {
+            display: flex;
+            width: 25%;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0px 20px 0px 0px;
+
+            .tecn-11 {
+                display: flex;
+
+                .porc-11 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 192px;
+                }
+            }
+
+            .tecn-12 {
+                display: flex;
+
+                .porc-12 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 200px;
+                }
+            }
+
+            .tecn-13 {
+                display: flex;
+
+                .porc-13 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 168px;
+                }
+            }
+        }
+
+        .hab21 {
+            display: flex;
+            width: 25%;
+            justify-content: flex-start;
+            flex-direction: column;            padding: 0px 20px 0px 0px;
+
+            .tecn-21 {
+                display: flex;
+
+                .porc-21 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 192px;
+                }
+            }
+
+            .tecn-22 {
+                display: flex;
+
+                .porc-22 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 200px;
+                }
+            }
+
+            .tecn-23 {
+                display: flex;
+
+                .porc-23 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 168px;
+                }
+            }
+        }
+
+        .hab31 {
+            display: flex;
+            width: 25%;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding: 0px 20px 0px 0px;
+
+
+            // width: 21.875em;
+            // justify-content: right;
+            // margin: 0.625em;
+
+            .tecn-31 {
+                display: flex;
+
+                .porc-31 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 192px;
+                }
+            }
+
+            .tecn-32 {
+                display: flex;
+
+                .porc-32 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 200px;
+                }
+            }
+
+            .tecn-33 {
+                display: flex;
+
+                .porc-33 {
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0px 0px 0px 168px;
+                }
+            }
+        }
+    }
+}

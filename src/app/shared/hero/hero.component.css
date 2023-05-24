@@ -1,0 +1,51 @@
+body {
+  align-items: center;
+  background: #e3e3e3;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-109.375em);
+  }
+}
+.slider {
+  background: white;
+  box-shadow: 0 0.625em 1.25em -0.3125em rgba(0, 0, 0, 0.125);
+  height: 6.25em;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 60em;
+}
+.slider::before, .slider::after {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 100%);
+  content: "";
+  height: 6.25em;
+  position: absolute;
+  width: 12.5em;
+  z-index: 2;
+}
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+.slider::before {
+  left: 0;
+  top: 0;
+}
+.slider .slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: 218.75em;
+}
+.slider .slide {
+  height: 6.25em;
+  width: 15.625em;
+}/*# sourceMappingURL=hero.component.css.map */

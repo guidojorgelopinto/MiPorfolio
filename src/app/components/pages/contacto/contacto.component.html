@@ -1,0 +1,106 @@
+<app-header></app-header>
+<body>
+    <div class="ppal">
+
+        <div class="ppal1">
+            <h1>Contactenos</h1>
+            <p>Una gran vision sin grandes personas es irrelevante.</p>
+            <p>Trabajemos juntos.</p>
+        </div>
+
+        <div class="form-reg">
+
+                <form [formGroup]="registerForm" (ngSubmit)="signUp()">
+                    <mat-form-field class="reg_prop">
+                        <mat-label>Apellido</mat-label>
+                        <input
+                            matInput
+                            placeholder="lastName"
+                            value="lastName"
+                            formControlName="lastName"
+                        />
+                    </mat-form-field>
+
+                    <br />
+
+                    <mat-form-field class="reg_prop">
+                        <mat-label>Nombre</mat-label>
+                        <input
+                            matInput
+                            placeholder="name"
+                            value="name"
+                            formControlName="name"
+                        />
+                    </mat-form-field>
+
+                    <br />
+
+                    <mat-form-field class="reg_prop">
+                        <mat-label>Email</mat-label>
+                        <input
+                            matInput
+                            placeholder="email"
+                            value="email"
+                            formControlName="email"
+                        />
+                        <mat-error
+                            *ngIf="
+                                registerForm.get('email')?.hasError('required')
+                            "
+                        >
+                            Error required
+                        </mat-error>
+
+                        <mat-error
+                            *ngIf="registerForm.get('email')?.hasError('email')"
+                        >
+                            Error mal escrito
+                        </mat-error>
+                    </mat-form-field>
+
+                    <br />
+
+                    <mat-form-field appearance="fill" class="reg_prop">
+                        <mat-label>Provincia</mat-label>
+                        <mat-select formControlName="city">
+                            <mat-option
+                                *ngFor="let city of citys"
+                                [value]="city.value"
+                            >
+                                {{ city.viewValue }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+
+                    <br />
+
+                    <mat-form-field appearance="fill" class="reg_prop">
+                        <mat-label>Pais</mat-label>
+                        <mat-select formControlName="country">
+                            <mat-option
+                                *ngFor="let country of countrys"
+                                [value]="country.value"
+                            >
+                                {{ country.viewValue }}
+                            </mat-option>
+                        </mat-select>
+                    </mat-form-field>
+
+                    <br />
+
+                    <mat-form-field appearance="fill" class="reg_prop">
+                        <mat-label>Textarea</mat-label>
+                        <textarea matInput></textarea>
+                    </mat-form-field>
+
+                    <br />
+
+                    <button type="submit" mat-raised-button color="primary">
+                        Enviar
+                    </button>
+                </form>
+        </div>
+
+        </div>
+</body>
+<app-footer></app-footer>

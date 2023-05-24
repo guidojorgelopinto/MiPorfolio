@@ -1,0 +1,29 @@
+body {
+  display: flex;
+}
+body .card-ppal {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  width: 1200px;
+  height: 500px;
+  font-size: 20px;
+  padding: 48px 160px 0px 192px;
+}
+body .card-ppal a {
+  text-decoration: none;
+}
+body .card-ppal .matStyle {
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+}
+body .card-ppal .matStyle .card-f {
+  margin: 70px 0px 0px 150px;
+  justify-content: right;
+}
+body .card-ppal .matStyle .card-ti {
+  width: 21.875rem;
+  height: 1.875rem;
+  justify-content: right;
+}/*# sourceMappingURL=servicios.component.css.map */

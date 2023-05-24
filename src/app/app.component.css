@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.LD {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 4.8px 15px;
+}
+
+::ng-deep .theme-light div {
+  color: rgb(43, 43, 43);
+  background-color: #f4f4f4;
+}
+::ng-deep .theme-dark div {
+  color: #f4f4f4;
+  background-color: rgb(22, 22, 22);
+}/*# sourceMappingURL=app.component.css.map */

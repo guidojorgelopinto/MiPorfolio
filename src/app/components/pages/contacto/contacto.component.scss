@@ -1,0 +1,27 @@
+.ppal {
+    display: flex;
+    float: right;
+    height: 600px;
+    padding: 96px 16px 160px 0px;
+    font-size: 20px;
+    text-align: left;
+
+    .ppal1 {
+        padding: 0px 0px 0px 320px;
+        width: 18.75em;
+        height: 1.875em;
+        justify-content: right;
+    }
+
+        .form-reg {
+            padding: 0px 0px 0px 50px;
+            width: 650px;
+            height: 500px;
+            justify-content: left;
+
+
+            .reg_prop {
+                width: 15em;
+            }
+        }
+}

@@ -1,0 +1,35 @@
+.ace {
+
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    justify-content: content;
+
+
+    .ace1 {
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 110px 0px 50px 0px;
+    }
+
+    .ace1 div {
+        margin: 5px;
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .ace2 {
+        display: flex;
+        width: 50%;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 90px 0px 0px 0px;
+    }
+
+    .ace2 div {
+        padding: 0px 0px 0px 20px;
+        margin: 5px;
+    }
+}

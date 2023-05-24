@@ -1,0 +1,7 @@
+node_modules
+.angular
+.pack
+
+# .angular/cache/13.3.11/angular-webpack/cc407ed1fd79d6e17078d0ba86d91c37db616a9e/6.pack
+# .angular/cache/13.3.11/angular-webpack/cc407ed1fd79d6e17078d0ba86d91c37db616a9e/5.pack
+# .angular/cache/13.3.11/angular-webpack/65dab1125130e28108a967a72066572d2322c995/2.pack
